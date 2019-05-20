@@ -1,3 +1,29 @@
 /*
 TODO(you): Write any additional styles you need here.
 */
+#music-screen{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+#gif-screen1,#gif-screen2{
+    flex-grow: 1;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.hidden{
+    display: none;
+}
+
+#cntl{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute; */
+}
+#cntl>img{
+    height: 60px;
+    weight: 60px;
+}
